@@ -15,3 +15,4 @@ This is an application developed to assist in breast cancer diagnosis. It utiliz
 ## References
 
 - This app was developed using [Streamlit](https://streamlit.io/) for the user interface and [Plotly](https://plotly.com/) for data visualization.
+
