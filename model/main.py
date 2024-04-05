@@ -40,10 +40,10 @@ def main():
     
     model, scaler = create_model(data)
 
-    with open('../model/model.pkl', 'wb') as f:
+    with open('model/model.pkl', 'wb') as f:
         pickle.dump(model, f)
         
-    with open('../model/scale.pkl', 'wb') as f:
+    with open('model/scale.pkl', 'wb') as f:
         pickle.dump(scaler, f)
     
     
