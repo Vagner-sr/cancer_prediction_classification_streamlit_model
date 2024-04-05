@@ -168,13 +168,6 @@ def main():
     col1, col2 = st.columns([4,1])
     
     with col1:
-        st.subheader("The Cell cluster is:")
-        
-        if prediction[0] == 0:
-            st.write('<b>Benign</b>', unsafe_allow_html=True)
-        else:
-            st.write('<b>Malicius</b>', unsafe_allow_html=True)
-        
         radar_chart = get_radar_chart(input_data)
         st.plotly_chart(radar_chart)
         
